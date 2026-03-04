@@ -13,8 +13,8 @@ Here you will find the raw Markdown versions of my guides. Feel free to use the 
 
 * 🎥 **[How to Record and Stream with OBS on Bazzite (Game Mode)](OBS-Bazzite-Recording-Fix.md)**
   * *Fixes Gamescope black screens, Ultrawide 21:9 scaling, and sets up OBS VkCapture for native games and emulators.*
-* 🏆 **RetroAchievements & Custom Challenges**
-  * *Featuring the Resident Evil RPG Skill Tree Challenge and deep-dive emulation setups.*
+* 🕹️ **[How to Play Classic Flash Games Natively on Steam Deck & Bazzite](Flash-Games-Bazzite-SteamDeck.md)**
+  * *Preserve web classics (.swf) directly in your Steam UI using the Ruffle Flatpak emulator. No browser needed!*
 * ⚙️ **Bazzite System Optimization**
   * *(More guides coming soon!)*
 
