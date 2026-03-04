@@ -46,7 +46,7 @@ Most Flash games rely on the keyboard (Arrow Keys + Space/Z/A).
 ## 📖 Want the Full Step-by-Step?
 I wrote a detailed guide on Steam Community with full screenshots, explaining how to **add multiple games** (since Ruffle disappears from the non-Steam game list after the first time) and extra troubleshooting tips.
 
-👉 **[Read the Full Guide on Steam Here](https://steamcommunity.com/sharedfiles/filedetails/?id=3666492820)**
+**[Read the Full Guide on Steam Here](https://steamcommunity.com/sharedfiles/filedetails/?id=3666492820)**
 
 Let me know if you have any issues setting it up! :D
 
