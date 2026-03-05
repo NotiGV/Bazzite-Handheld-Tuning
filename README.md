@@ -15,7 +15,7 @@ Here you will find the raw Markdown versions of my guides. Feel free to use the 
   * *Fixes Gamescope black screens, Ultrawide 21:9 scaling, and sets up OBS VkCapture for native games and emulators.*
 * 🕹️ **[How to Play Classic Flash Games Natively on Steam Deck & Bazzite](Flash-Games-Bazzite-SteamDeck.md)**
   * *Preserve web classics (.swf) directly in your Steam UI using the Ruffle Flatpak emulator. No browser needed!*
-* 🏕️ **[Don't Starve Together Resolution on Bazzite / Steam Deck (Docked) Fixed](Dont-Starve-Together-Bazzite-Fix.md)**
+* 🏕️ **[Don't Starve Together Resolution on Bazzite / Steam Deck (Docked) Fixed](DST-Ultrawide-Docked-Resolution-Fix.md)**
   * *Fixes the 720p / Handheld Mode resolution lock when playing docked, forcing native 1080p, 1440p, and Ultrawide 21:9 using gamescope.*
 * ⚙️ **Bazzite System Optimization**
   * *(More guides coming soon!)*
