@@ -149,6 +149,12 @@ If you play on an Ultrawide monitor (like 3440x1440), OBS might crop your image 
 ## 🚀 Launch Options
 To make the game send its image to OBS, we have to tell Steam to do so. Go to your Steam Library, right-click the game -> **Properties** -> **General** -> **Launch Options**.
 
+![bazzite-steamos-steamdeck-OBS-launch-options-notigv](https://github.com/user-attachments/assets/8bcc1ced-2882-45ff-ac83-25f0089c7901)
+
+![bazzite-steamos-steamdeck-OBS-launch-options-properties-notigv](https://github.com/user-attachments/assets/1d294636-5f46-4b00-9e7a-122324452066)
+
+![bazzite-steamos-steamdeck-OBS-launch-options-general-notigv](https://github.com/user-attachments/assets/9e62d54b-5d08-4dcb-aedc-e49206221032)
+
 Depending on what you are trying to play, follow the rule that applies to you:
 
 **Case 1: The box is completely empty**
@@ -156,6 +162,7 @@ This applies to almost all native Steam games (like Hollow Knight) and clean emu
 ```bash
 OBS_VKCAPTURE=1 %command%
 ```
+![bazzite-steamos-steamdeck-OBS-launch-options-case1-notigv](https://github.com/user-attachments/assets/afaf3183-f56b-4853-8943-57777d7e0a3d)
 
 **Case 2: The box already has %command% in it**
 If you already have environment variables (like `vblank_mode=0 %command%` for Dolphin), don't delete them! Just put our command at the very beginning and leave a space:
@@ -163,11 +170,18 @@ If you already have environment variables (like `vblank_mode=0 %command%` for Do
 OBS_VKCAPTURE=1 vblank_mode=0 %command%
 ```
 
+![bazzite-steamos-steamdeck-OBS-launch-options-case2-notigv](https://github.com/user-attachments/assets/a6716273-a269-4d0f-ac11-64af293bb98c)
+
+![bazzite-steamos-steamdeck-OBS-launch-options-case2-solution-notigv](https://github.com/user-attachments/assets/42a8f18d-09c4-42a4-9ba8-c82a68e1241a)
+
 **Case 3: The box has text, but NO %command%**
 Very common in PCSX2 setups (e.g., `-fullscreen -batch`). Put our command AND the `%command%` variable at the very beginning, leaving a space before the original text:
 ```bash
 OBS_VKCAPTURE=1 %command% -fullscreen -batch
 ```
+![bazzite-steamos-steamdeck-OBS-launch-options-case3-notigv](https://github.com/user-attachments/assets/ce5530fe-2edb-478f-a080-71bc512fbeb3)
+
+![bazzite-steamos-steamdeck-OBS-launch-options-case3-solution-notigv](https://github.com/user-attachments/assets/cbba327e-f76f-4bd1-95c7-2e91801f6d31)
 
 ---
 
