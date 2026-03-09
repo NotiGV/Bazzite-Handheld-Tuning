@@ -103,18 +103,46 @@ Open OBS Studio. Now we need to add the correct source and tweak a few things to
 
 1. In the Sources box, click the **+** button.
 
-   
+![bazzite-steamos-steamdeck-OBS-interface-source-notigv](https://github.com/user-attachments/assets/5cebfc05-9a9a-4f87-bd1f-2153d995786e)
+
 2. Select **Game Capture**. *(This option appears thanks to the plugin we just installed! :D)*
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-notigv](https://github.com/user-attachments/assets/0feacf27-74b0-42f5-9169-7f9908fba0d2)
+
 3. Right-click that source in the list -> **Transform** -> **Fit to screen**.
+
+![bazzite-steamos-steamdeck-OBS-interface-source-notigv](https://github.com/user-attachments/assets/3c0bbf2e-42f7-4b47-be80-24b04dad4b7e)
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-fit-notigv](https://github.com/user-attachments/assets/defa287f-7c3e-4078-a2d2-57c2a8c3dd86)
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-fitscreen-notigv](https://github.com/user-attachments/assets/c8a7fdc7-5e39-4bd2-919b-5c48e37e72bb)
 
 ### 🖥️ For Ultrawide Users (21:9)
 If you play on an Ultrawide monitor (like 3440x1440), OBS might crop your image if the canvas and output aren't set properly. Let's fix that! :D
 
 1. Go to **Settings** -> **Video**. Change both Base (Canvas) Resolution and Output (Scaled) Resolution to `3440x1440`.
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-notigv](https://github.com/user-attachments/assets/b218da79-6902-450c-875c-a5a5d849643b)
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-video-notigv](https://github.com/user-attachments/assets/b3682438-d92a-4c1e-8345-263073af36dc)
+
 2. Go to **Settings** -> **Output** -> **Recording**.
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-notigv](https://github.com/user-attachments/assets/f9d53698-f911-4ccd-9333-23acb50c3bf9)
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-output-notigv](https://github.com/user-attachments/assets/4c450caf-f2ed-489f-adde-c8f39afc0b52)
+
 3. **¡IMPORTANT!** Make sure the **Rescale Output** option is Disabled. If it's checked, it will ruin your 21:9 aspect ratio! :(
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-resolution-notigv](https://github.com/user-attachments/assets/36efcad2-e32b-4fbf-99e6-87227001b6e7)
+
 4. Use the **Hybrid MP4** format so your videos won't corrupt if the power goes out.
-5. In Video Encoder, select **FFmpeg VAAPI AV1** (if you have an AMD card that supports it) for better quality at half the file size.
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-format-notigv](https://github.com/user-attachments/assets/289a85c5-be46-43ac-ada1-731dc030ee05)
+
+6. In Video Encoder, select **FFmpeg VAAPI AV1** (if you have an AMD card that supports it) for better quality at half the file size.
+
+![bazzite-steamos-steamdeck-OBS-interface-source-options-ultrawide-encoder-notigv](https://github.com/user-attachments/assets/f83e569f-602d-4dad-9781-492e0fec3a53)
 
 ---
 
