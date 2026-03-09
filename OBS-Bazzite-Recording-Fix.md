@@ -19,7 +19,13 @@ This guide is made to fix the issue where the native Steam Game Recording is bro
 
 The problem is that since Bazzite's Game Mode uses the **Gamescope** compositor, OBS cannot capture the full screen directly. If you try to record, you will just get a black screen. 
 
+![bazzite-steamos-steamdeck-OBS-interface-gamode-notigv](https://github.com/user-attachments/assets/93b031d9-2643-4d0d-9d3b-26346f2080d1)
+
 This guide provides the definitive solution to hook OBS directly into your games! :D
+
+![bazzite-steamos-steamdeck-OBS-interface-gamode-games-notigv](https://github.com/user-attachments/assets/1cdd5836-3a24-49b4-80bf-a38f8863e836)
+
+![bazzite-steamos-steamdeck-OBS-interface-gamode-games-AA-notigv](https://github.com/user-attachments/assets/fd147511-e2a2-4caf-b041-6d7a2bc7e68c)
 
 ---
 
@@ -27,8 +33,32 @@ This guide provides the definitive solution to hook OBS directly into your games
 Since Bazzite is an immutable system, we will install everything via Flatpak to keep it safe and clean.
 
 ### Step 1: Install OBS Studio
-Go to Desktop Mode, open the Discover software center, search for OBS Studio, and install it.
+Go to Desktop Mode
+
+![bazzite-steamos-steamdeck-OBS-interface-kde-notigv](https://github.com/user-attachments/assets/62edeed1-deec-4b24-836d-0ef2d1e87f7d)
+
+Open the Discover software center
+
+![bazzite-steamos-steamdeck-OBS-interface-discover-notigv](https://github.com/user-attachments/assets/0e80fed3-c083-4633-b3a1-521081ddd451)
+
+![bazzite-steamos-steamdeck-OBS-interface-discover-interface-notigv](https://github.com/user-attachments/assets/b1500b2f-0a8d-48c3-b36e-249b28404a06)
+
+![bazzite-steamos-steamdeck-OBS-interface-discover-interface-options-notigv](https://github.com/user-attachments/assets/51853db8-5cc4-49de-9731-64d01afdca66)
+
+Search for OBS Studio, and install it.
+
+![bazzite-steamos-steamdeck-OBS-interface-discover-OBS-notigv](https://github.com/user-attachments/assets/6d8c3f29-4c9d-4947-b28f-0ff64e55e189)
+
+![bazzite-steamos-steamdeck-OBS-interface-discover-OBS-store-notigv](https://github.com/user-attachments/assets/c75f47b7-eaf8-4682-84ae-c9430a35b81b)
+
 *(Alternatively, open Konsole and type this command):*
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-notigv](https://github.com/user-attachments/assets/f699ba28-3b43-4594-b5df-bd1c59330811)
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-interface-notigv](https://github.com/user-attachments/assets/c5b1b277-4f9a-42d6-9361-ab6a231aa50e)
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-interface-flathub-notigv](https://github.com/user-attachments/assets/3ae9ac93-b251-4cf8-b02d-fe7317a76b24)
+
 ```bash
 flatpak install flathub com.obsproject.Studio
 ```
@@ -37,6 +67,11 @@ flatpak install flathub com.obsproject.Studio
 For OBS to see your games inside Game Mode, we need to install a bridge (plugin). Sometimes it doesn't show up in Discover, so the terminal is the fastest way! :D
 
 Open your terminal (Konsole), paste this command and press Enter:
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-notigv](https://github.com/user-attachments/assets/cb65d55c-6e5b-4348-a285-485172db689a)
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-command-notigv](https://github.com/user-attachments/assets/7c3cbb77-3be1-4e88-9c59-525acfe5c09e)
+
 ```bash
 flatpak install flathub com.obsproject.Studio.Plugin.OBSVkCapture
 ```
@@ -45,11 +80,17 @@ flatpak install flathub com.obsproject.Studio.Plugin.OBSVkCapture
 ### Step 3: The Emulator Fix (EmuDeck / Flatpak Users)
 If you use emulators like Dolphin, RetroArch, or DuckStation installed via EmuDeck or Discover, they live inside a Flatpak "sandbox" that blocks OBS from seeing the video. We need to give them permission by installing a specific capture layer.
 
-Open your terminal (Konsole), paste this command and press Enter:
+Open your terminal (Konsole)
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-notigv](https://github.com/user-attachments/assets/ae303341-bd2c-4d55-b4cc-fc8aa2c45f4c)
+
+Paste this command and press Enter:
 ```bash
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.OBSVkCapture
 ```
 If the terminal gives you a numbered list of versions (like 21.08, 24.08, 25.08...), type the number for the **highest/newest version** (for example, type `5`) and press Enter. Press `Y` to confirm the installation.
+
+![bazzite-steamos-steamdeck-OBS-interface-konsole-command-VK⁄GL-notigv](https://github.com/user-attachments/assets/ebb9b0a4-6ee6-4239-8e85-b9b852a7cfef)
 
 * **Tip for Emulators:** Make sure your emulator's Video Backend / API is set to **Vulkan** in its graphical settings, otherwise the capture plugin might not detect it!
 
@@ -61,6 +102,8 @@ Done! The magic is installed. :D
 Open OBS Studio. Now we need to add the correct source and tweak a few things to avoid cropping or a giant zoom on your screen.
 
 1. In the Sources box, click the **+** button.
+
+   
 2. Select **Game Capture**. *(This option appears thanks to the plugin we just installed! :D)*
 3. Right-click that source in the list -> **Transform** -> **Fit to screen**.
 
