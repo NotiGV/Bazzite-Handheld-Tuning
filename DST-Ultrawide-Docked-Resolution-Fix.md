@@ -62,6 +62,8 @@ If you prefer to read this guide with rich formatting, see the step-by-step scre
 
 ---
 
-> ***Disclaimer:*** This technical guide was written and formatted by NotiGV to help the Linux and handheld gaming community optimize their displays. Technical Note: The gamescope launch options provided are standard system-level commands used to override resolution scaling on SteamOS/Bazzite. While they are completely safe, applying custom launch options is always done at your own discretion. Don't Starve Together is property of Klei Entertainment.
+> ***Disclaimer:*** This technical guide was written and formatted by NotiGV to help the Linux and handheld gaming community optimize their displays.
+>
+> ***Technical Note:*** The gamescope launch options provided are standard system-level commands used to override resolution scaling on SteamOS/Bazzite. While they are completely safe, applying custom launch options is always done at your own discretion. Don't Starve Together is property of Klei Entertainment.
 > 
 > ***Editing Process:*** Digital creation and language assistance tools were utilized during the final proofreading of this guide to ensure clear, concise, and accurate technical instructions.
