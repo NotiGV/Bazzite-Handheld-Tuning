@@ -13,7 +13,7 @@ Here you will find the raw Markdown versions of my guides. Feel free to use the 
 * 🎥 **[How to Record and Stream with OBS on Bazzite (Game Mode)](OBS-Bazzite-Recording-Fix.md)**
   * *Fixes Gamescope black screens, Ultrawide 21:9 scaling, and sets up OBS VkCapture for native games and emulators.*
 * 🌱 **[PvZ Gardendless on Steam Deck / Bazzite (The Switcharoo Trick)](PvZ-Gardendless-Bazzite-SteamOS-Fix.md)**
-  * *Play the PvZ Gardenless PC port directly from your Steam Library. Fixes missing WebView2 runtime errors and black screens using GE-Proton.*
+  * *Play the PvZ Gardendless PC port directly from your Steam Library. Fixes missing WebView2 runtime errors and black screens using GE-Proton.*
 * 🕹️ **[How to Play Classic Flash Games Natively on Steam Deck & Bazzite](Ruffle-Flash-SteamOS-Setup.md)**
   * *Preserve web classics (.swf) directly in your Steam UI using the Ruffle Flatpak emulator. No browser needed!*
 * 🏕️ **[Don't Starve Together Resolution on Bazzite / Steam Deck (Docked) Fixed](DST-Resolution-Bazzite-Fix.md)**
