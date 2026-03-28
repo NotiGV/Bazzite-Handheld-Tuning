@@ -1,29 +1,29 @@
 # 🐧 Bazzite & Linux Gaming Guides
 **Created by NotiGV :D**
 
-Welcome to my central archive of fast, practical, and no-nonsense guides for Linux Gaming, emulation, and handheld optimization. 
+Welcome to my central archive of fast, practical, and no-nonsense guides for Linux Gaming, emulation, and handheld optimization.
 
 If you are tired of searching for solutions online and finding absolutely nothing, you are in the right place. These guides are focused on **Bazzite** (Fedora Atomic) and **SteamOS**, designed to get things working without the headache. No fluff, just results.
 
 ---
 
 ## 📚 Table of Contents (Current Guides)
-
 Here you will find the raw Markdown versions of my guides. Feel free to use the commands and scripts!
 
 * 🎥 **[How to Record and Stream with OBS on Bazzite (Game Mode)](OBS-Bazzite-Recording-Fix.md)**
   * *Fixes Gamescope black screens, Ultrawide 21:9 scaling, and sets up OBS VkCapture for native games and emulators.*
-* 🕹️ **[How to Play Classic Flash Games Natively on Steam Deck & Bazzite](Flash-Games-Bazzite-SteamDeck.md)**
+* 🌱 **[PvZ Gardendless on Steam Deck / Bazzite (The Switcharoo Trick)](PvZ-Gardendless-Bazzite-SteamOS-Fix.md)**
+  * *Play the PvZ Gardenless PC port directly from your Steam Library. Fixes missing WebView2 runtime errors and black screens using GE-Proton.*
+* 🕹️ **[How to Play Classic Flash Games Natively on Steam Deck & Bazzite](Ruffle-Flash-SteamOS-Setup.md)**
   * *Preserve web classics (.swf) directly in your Steam UI using the Ruffle Flatpak emulator. No browser needed!*
-* 🏕️ **[Don't Starve Together Resolution on Bazzite / Steam Deck (Docked) Fixed](DST-Ultrawide-Docked-Resolution-Fix.md)**
+* 🏕️ **[Don't Starve Together Resolution on Bazzite / Steam Deck (Docked) Fixed](DST-Resolution-Bazzite-Fix.md)**
   * *Fixes the 720p / Handheld Mode resolution lock when playing docked, forcing native 1080p, 1440p, and Ultrawide 21:9 using gamescope.*
-* ⚙️ **Bazzite System Optimization**
-  * *(More guides coming soon!)*
+
+*(More guides coming soon!)*
 
 ---
 
 ## 🖥️ The Hardware (Where these guides are tested)
-
 All the tutorials and fixes in this repository are actively tested on my personal setups running **Bazzite (KDE Plasma)**:
 
 ### 1. The Desktop Rig (Ultrawide Gaming & Streaming)
@@ -44,7 +44,7 @@ If you prefer reading these guides with rich formatting, images, or want to drop
 
 * 🎮 **[Steam Guides](https://steamcommunity.com/id/NotiGV/myworkshopfiles/?section=guides)**
 * 📝 **[Medium Blog](https://medium.com/@NotiGV)**
-* 👾 **[RetroAchievements](https://retroachievements.org/user/NotiGV)**
+* 👾 **[RetroAchievements Profile](https://retroachievements.org/user/NotiGV)**
 * 🌳 **[Linktree (All my links)](https://linktr.ee/NotiGV)**
 
 *If you ever have a question wherever you find me, just ask! I will always answer, and if I don't know the solution, I will research it until I do! :D*
