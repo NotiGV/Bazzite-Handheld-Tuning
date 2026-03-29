@@ -203,7 +203,7 @@ I'd love to hear what games you are excited to record or stream first on Bazzite
 ## 📖 Read the Full Guide
 If you prefer to read this guide with rich formatting, see the step-by-step screenshots, or want to drop a comment to the community, check out the official Steam version right here:
 
-**[Read and Favorite the Official Steam Guide Here](https://steamcommunity.com/sharedfiles/filedetails/?id=3678225635)**
+**[Read and Favorite the Official Steam Guide Here](https://steamcommunity.com/sharedfiles/filedetails/?id=3695202954)**
 
 ---
 
