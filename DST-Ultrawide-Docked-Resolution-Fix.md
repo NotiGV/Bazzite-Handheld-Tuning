@@ -1,7 +1,7 @@
 ![dont-starve-together-steam-deck-bazzite-gamemode-notigv](https://github.com/user-attachments/assets/7071955b-3179-4dd1-8eb4-d9b4e64dd5ee)
 
 # Don't Starve Together Resolution on Bazzite / Steam Deck (Docked) Fixed
-**By NotiGV**
+**By ThatGVguy**
 
 A simple fix for the Handheld Mode / 720p lock when playing docked on Bazzite or Steam Deck. Includes settings for 1080p, 1440p and Ultrawide monitors. :D
 
@@ -62,7 +62,7 @@ If you prefer to read this guide with rich formatting, see the step-by-step scre
 
 ---
 
-> ***Disclaimer:*** This technical guide was written and formatted by NotiGV to help the Linux and handheld gaming community optimize their displays.
+> ***Disclaimer:*** This technical guide was written and formatted by ThatGVguy to help the Linux and handheld gaming community optimize their displays.
 >
 > ***Technical Note:*** The gamescope launch options provided are standard system-level commands used to override resolution scaling on SteamOS/Bazzite. While they are completely safe, applying custom launch options is always done at your own discretion. Don't Starve Together is property of Klei Entertainment.
 > 
