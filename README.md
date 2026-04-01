@@ -1,5 +1,5 @@
 # 🐧 Bazzite & Linux Gaming Guides
-**Created by NotiGV :D**
+**Created by ThatGVguy :D**
 
 Welcome to my central archive of fast, practical, and no-nonsense guides for Linux Gaming, emulation, and handheld optimization.
 
