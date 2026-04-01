@@ -1,7 +1,7 @@
 ![PVZ GE-Gardenless-notigv-bazzite-Plants vs Zombies](https://github.com/user-attachments/assets/b2a21c17-0ba9-4684-92e7-11ecd5f2aac6)
 
 # PvZ Gardendless on Steam Deck / Bazzite
-**By NotiGV**
+**By ThatGVguy**
 
 A fast, no-nonsense guide to playing the amazing PvZ Gardenless PC port directly from your Steam Library. Say goodbye to the missing WebView2 errors and black screens! :D
 
@@ -213,7 +213,7 @@ If you prefer to read this guide with rich formatting, see the step-by-step scre
 ---
 
 >
->***Disclaimer & Credits:*** This technical guide was written and formatted by NotiGV for educational purposes and to help the Linux and handheld gaming community troubleshoot compatibility issues.
+>***Disclaimer & Credits:*** This technical guide was written and formatted by ThatGVguy for educational purposes and to help the Linux and handheld gaming community troubleshoot compatibility issues.
 >
 >***Asset & Property Rights:*** PvZ Gardendless is a fan-made project. All original Plants vs. Zombies assets, characters, and intellectual properties belong to PopCap Games and Electronic Arts (EA). This guide does not host, provide, or directly distribute the game files or Microsoft binaries. All links point to the official project page and Microsoft's official developer resources.
 >
