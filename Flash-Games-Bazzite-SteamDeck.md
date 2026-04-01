@@ -1,7 +1,7 @@
 ![flash-games-steam-deck-bazzite-gamemode-ruffle-notigv](https://github.com/user-attachments/assets/14fc865b-f7a6-4673-a850-5117ea698bc7)
 
 # How to Play Classic Flash Games Natively on Steam Deck & Bazzite (Ruffle Guide)
-**By NotiGV**
+**By ThatGVguy**
 
 Preserve web classics like **Alien Hominid**, **Fancy Pants** and **Mario 63** directly in your Steam UI, no browser needed!
 
@@ -52,6 +52,6 @@ Let me know if you have any issues setting it up! :D
 
 ---
 
-> ***Disclaimer:*** This technical guide was written and formatted by NotiGV to help the Linux and handheld gaming community optimize their emulation setups. The Flatpak commands provided are standard, safe system-level commands for Bazzite/SteamOS. Applying custom launch options is always done at your own discretion.
+> ***Disclaimer:*** This technical guide was written and formatted by ThatGVguy to help the Linux and handheld gaming community optimize their emulation setups. The Flatpak commands provided are standard, safe system-level commands for Bazzite/SteamOS. Applying custom launch options is always done at your own discretion.
 >   
 > ***Editing Process:*** Digital creation and language assistance tools were utilized during the final proofreading of this guide to ensure clear, concise, and accurate technical instructions.
