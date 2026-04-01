@@ -1,7 +1,7 @@
 ![obs-recorder-steam-deck-bazzite-gamemode-notigv](https://github.com/user-attachments/assets/dcab4258-e8d8-4afa-a934-c88ee3f6d5b7)
 
 # Record and Stream with OBS on Bazzite / Steam Deck (Game Mode)
-**By NotiGV**
+**By ThatGVguy**
 
 A fast, no-nonsense guide to using OBS Studio inside Game Mode. Perfect for recording at max quality, fixing a broken Steam Game Recording or streaming straight from your console or PC with Bazzite! :D
 
@@ -207,7 +207,7 @@ If you prefer to read this guide with rich formatting, see the step-by-step scre
 
 ---
 
->***Disclaimer:*** This technical guide was written and formatted by NotiGV to help the Linux and handheld gaming community optimize their recording setups. 
+>***Disclaimer:*** This technical guide was written and formatted by ThatGVguy to help the Linux and handheld gaming community optimize their recording setups. 
 >
 > ***Technical Note:*** The environment variables and Flatpak commands provided are standard, safe system-level commands for Bazzite/SteamOS. Applying custom launch options is always done at your own discretion.
 >
