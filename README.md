@@ -42,9 +42,9 @@ All the tutorials and fixes in this repository are actively tested on my persona
 ## 🌐 Find Me Elsewhere
 If you prefer reading these guides with rich formatting, images, or want to drop a comment, you can find the official published versions here:
 
-* 🎮 **[Steam Guides](https://steamcommunity.com/id/NotiGV/myworkshopfiles/?section=guides)**
-* 📝 **[Medium Blog](https://medium.com/@NotiGV)**
-* 👾 **[RetroAchievements Profile](https://retroachievements.org/user/NotiGV)**
-* 🌳 **[Linktree (All my links)](https://linktr.ee/NotiGV)**
+* 🎮 **[Steam Guides](https://steamcommunity.com/id/ThatGVguy/myworkshopfiles/?section=guides)**
+* 📝 **[Medium Blog](https://medium.com/@ThatGVguy)**
+* 👾 **[RetroAchievements Profile](https://retroachievements.org/user/ThatGVguy)**
+* 🌳 **[Linktree (All my links)](https://linktr.ee/ThatGVguy)**
 
 *If you ever have a question wherever you find me, just ask! I will always answer, and if I don't know the solution, I will research it until I do! :D*
