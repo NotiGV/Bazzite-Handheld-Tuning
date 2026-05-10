@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% seo %}
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.title %}
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      {% endif %}
+
+      {{ content }}
+
+      <hr>
+      <script src="https://giscus.app/client.js"
+              data-repo="ThatGVguy/Bazzite-Handheld-Tuning"
+              data-repo-id="R_kgDOReZtMg"
+              data-category="General"
+              data-category-id="DIC_kwDOReZtMs4C8uVT"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="bottom"
+              data-theme="purple_dark"
+              data-lang="es"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZa0VwbNc9+pWD4N/pZp86JmEcB86395buaLaxqM444=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
