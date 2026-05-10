@@ -214,3 +214,19 @@ If you prefer to read this guide with rich formatting, see the step-by-step scre
 > ***Editing Process:*** Digital creation and language assistance tools were utilized during the final proofreading of this guide to ensure clear, concise, and accurate technical instructions.
 
 *Happy recording, and I'll see you on stream! :D*
+
+<script src="https://giscus.app/client.js"
+        data-repo="ThatGVguy/Bazzite-Handheld-Tuning"
+        data-repo-id="R_kgDOReZtMg"
+        data-category="General"
+        data-category-id="DIC_kwDOReZtMs4C8uVT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="purple_dark"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
