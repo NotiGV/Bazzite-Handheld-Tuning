@@ -59,7 +59,7 @@ If you prefer reading these guides with rich formatting, images, or want to drop
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="dark"
+        data-theme="purple_dark"
         data-lang="es"
         crossorigin="anonymous"
         async>
