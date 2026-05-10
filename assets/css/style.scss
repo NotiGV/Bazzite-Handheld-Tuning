@@ -2,33 +2,46 @@
 ---
 @import "{{ site.theme }}";
 
+$neon-purple: #bc13fe;
+$neon-magenta: #ff00ff;
+$dark-bg: #0d001a;
+$text-lila: #d1b3ff;
+
 body {
-  color: #d1b3ff; 
-  background-color: #0d001a;
+  color: $text-lila;
+  background-color: $dark-bg;
+}
+
+li:before {
+  color: $neon-purple !important;
+  content: ">> " !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #bc13fe !important;
+  color: $neon-purple !important;
+  text-shadow: 0 0 5px rgba(188, 19, 254, 0.5);
 }
 
 a {
-  color: #ff00ff; 
+  color: $neon-magenta;
   text-decoration: none;
   &:hover {
-    color: #ffffff;
-    text-shadow: 0 0 8px #ff00ff;
+    color: #fff;
+    text-shadow: 0 0 10px $neon-magenta;
   }
 }
 
-header {
-  border-bottom: 1px dashed #bc13fe;
+header, footer, .inner, hr {
+  border-color: $neon-purple !important;
+  background-image: none !important;
 }
 
-footer {
-  border-top: 1px dashed #bc13fe;
+#main_content_wrap {
+  border-top: 1px solid $neon-purple;
 }
 
 code {
   background: #2a004d;
-  color: #f0f;
+  color: #ffb3ff;
+  border: 1px solid $neon-purple;
 }
