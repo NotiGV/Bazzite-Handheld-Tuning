@@ -4,7 +4,7 @@
 
 $neon-purple: #bc13fe;
 $neon-magenta: #ff00ff;
-$dark-bg: #0d001a;
+$dark-bg: #0b0015;
 $text-lila: #d1b3ff;
 
 body {
@@ -13,35 +13,33 @@ body {
 }
 
 li:before {
-  color: $neon-purple !important;
-  content: ">> " !important;
+  content: "" !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $neon-purple !important;
-  text-shadow: 0 0 5px rgba(188, 19, 254, 0.5);
+  text-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
 }
 
 a {
-  color: $neon-magenta;
-  text-decoration: none;
+  color: $neon-magenta !important;
   &:hover {
-    color: #fff;
-    text-shadow: 0 0 10px $neon-magenta;
+    color: #fff !important;
+    text-shadow: 0 0 15px $neon-magenta;
   }
 }
 
-header, footer, .inner, hr {
+header, footer, hr, .inner {
   border-color: $neon-purple !important;
-  background-image: none !important;
+  background: transparent !important;
 }
 
-#main_content_wrap {
-  border-top: 1px solid $neon-purple;
+header h1 a {
+  color: $neon-purple !important;
 }
 
 code {
-  background: #2a004d;
-  color: #ffb3ff;
-  border: 1px solid $neon-purple;
+  background: #1a0033 !important;
+  color: #ffb3ff !important;
+  border: 1px solid $neon-purple !important;
 }
