@@ -19,30 +19,30 @@ This guide provides the definitive fix using **gamescope** to force the correct 
 ## 🛠️ The Solution (Launch Options)
 We need to bypass the game's hardware detection by forcing a specific window size before the game even starts.
 
-1. Go to your **Steam Library**.
-2. Right-click **Don't Starve Together** -> **Properties**.
-3. In the **General** tab, find **Launch Options**.
-4. Copy and paste the command below that matches your monitor:
+1. Go to your Steam Library.
 
-**For 1080p Monitors:**
-```bash
-gamescope -w 1920 -h 1080 -W 1920 -H 1080 -f -- %command%
-```
+2. Right-click Don't Starve Together -> Properties.
 
-**For 1440p (2K) Monitors:**
+3. In the General tab, look for Maximum Game Resolution and change the dropdown menu to Native.
+
+<img width="2341" height="1124" alt="Dont Starve Together-steam-deck-bazzite-gamemode-thatGVguy 2" src="https://github.com/user-attachments/assets/e8bcba29-7216-46fd-8826-32cd07cbd0ad" />
+
+**(This is super important! It ensures the game boots up using your monitor's exact resolution instead of scaling up a smaller image! :D)**
+
+4. Scroll down just a bit to find Launch Options.
+
+<img width="1050" height="739" alt="Dont Starve Together-steam-deck-bazzite-gamemode-thatGVguy" src="https://github.com/user-attachments/assets/2ffdca16-11c5-418e-8251-19c5f73e2e79" />
+
+5. Copy and paste the command below :D
+
 ```bash
-gamescope -w 2560 -h 1440 -W 2560 -H 1440 -f -- %command%
+Steamdeck=0 %command%
 ```
 
 ---
 
 ## 🖥️ For Ultrawide Users (21:9)
-If you are using an Ultrawide monitor (like 3440 x 1440), use this command instead. It will fix the aspect ratio and let you see much more of the map! :D
-
-**For Ultrawide (3440 x 1440):**
-```bash
-gamescope -w 3440 -h 1440 -W 3440 -H 1440 -f -- %command%
-```
+If you are using an Ultrawide monitor (like 3440 x 1440), use the same command. It will fix the aspect ratio and let you see much more of the map! :D
 
 **Note for Ultrawide:** The Main Menu might still have black bars on the sides because it's a static image. Don't worry! Once you load into the actual world/gameplay, the camera will zoom out and fill the entire screen perfectly.
 
