@@ -44,7 +44,13 @@ Steamdeck=0 %command%
 ## 🖥️ For Ultrawide Users (21:9)
 If you are using an Ultrawide monitor (like 3440 x 1440), use the same command. It will fix the aspect ratio and let you see much more of the map! :D
 
-**Note for Ultrawide:** The Main Menu might still have black bars on the sides because it's a static image. Don't worry! Once you load into the actual world/gameplay, the camera will zoom out and fill the entire screen perfectly.
+**Note for Ultrawide:** The Main Menu might still have black bars on the sides because it's a static image.
+
+<img width="1488" height="623" alt="Dont Starve Together-steam-deck-bazzite-gamemode-thatGVguy-ultrawide" src="https://github.com/user-attachments/assets/6a905ef0-9aa2-4ba9-9e3d-fa51320a2b43" />
+
+**Don't worry! Once you load into the actual world/gameplay, the camera will zoom out and fill the entire screen perfectly.**
+
+<img width="1490" height="625" alt="Dont Starve Together-steam-deck-bazzite-gamemode-thatGVguy-ultrawide2" src="https://github.com/user-attachments/assets/741e3ec7-21e4-471f-a4a4-be00762abbf3" />
 
 ---
 
