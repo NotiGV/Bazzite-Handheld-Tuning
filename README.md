@@ -48,19 +48,3 @@ If you prefer reading these guides with rich formatting, images, or want to drop
 * 🌳 **[Linktree (All my links)](https://linktr.ee/ThatGVguy)**
 
 *If you ever have a question wherever you find me, just ask! I will always answer, and if I don't know the solution, I will research it until I do! :D*
-
-<script src="https://giscus.app/client.js"
-        data-repo="ThatGVguy/Bazzite-Handheld-Tuning"
-        data-repo-id="R_kgDOReZtMg"
-        data-category="General"
-        data-category-id="DIC_kwDOReZtMs4C8uVT"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark"
-        data-lang="es"
-        crossorigin="anonymous"
-        async>
-</script>
