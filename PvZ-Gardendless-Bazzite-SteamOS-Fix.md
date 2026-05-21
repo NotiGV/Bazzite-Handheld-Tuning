@@ -5,21 +5,21 @@
 
 A fast, no-nonsense guide to playing the amazing PvZ Gardenless PC port directly from your Steam Library. Say goodbye to the missing WebView2 errors and black screens! :D
 
+The whole point of this guide is so anyone can join this awesome community without breaking thier head trying to figure out Linux prefixes and weird terminal commands. So... grab a Taco and let's plant some peashooters!! :D
+
 **Includes:**
 * Downloading and safely organizing the game files.
 * Adding the game to your Steam Library.
 * The "Switcharoo" trick to install the required Microsoft WebView2 Runtime inside Proton.
 * Installing GE-Proton to fix the black screen issues.
 
-Let's plant some peashooters!! :D
-
 ---
 
 ## 📥 Step 1: Download & Organize
-Since this is a standalone Windows port, we need to download it and put it in a safe place.
+First things first! Since this is a standalone Windows port, we need to download it and put it in a safe place.
 
 1. Go to Desktop Mode.
-2. Open your browser and go to the official site: **[PvZ Gardendless (pvzge.com)](https://pvzge.com/en/)**
+2. Open your trusty web browser and go to the official site: **[PvZ Gardendless (pvzge.com)](https://pvzge.com/en/)**
 
    ![NotiGV-PVZGE-Official site](https://github.com/user-attachments/assets/a0c603fc-21e6-4602-bf63-db7027d7d348)
 
@@ -47,7 +47,7 @@ Since this is a standalone Windows port, we need to download it and put it in a 
 ---
 
 ## 🎮 Step 2: Add to Steam
-Now we need to tell Steam where the game is.
+Now we need to tell Steam where the game actully is.
 
 1. Open Steam *(stay in Desktop Mode)*.
 
@@ -66,7 +66,7 @@ Now we need to tell Steam where the game is.
 
    ![NotiGV-PVZGE-file-folder](https://github.com/user-attachments/assets/b548d93d-b97b-431d-8dac-41208d355b68)
 
-   *Note: Make sure to change the file type filter at the bottom to "All Files" if you don't see the game!*
+   > *Note: Make sure to change the file type filter at the bottom to "All Files" if you don't see the game!*
    
 5. Select the game's main `.exe` file and click **Open**.
 
@@ -77,8 +77,9 @@ Now we need to tell Steam where the game is.
 ---
 
 ## 🔀 Step 3: The WebView2 Fix (The Switcharoo Trick)
-If you try to run the game now, you will get an error saying: *"Could not find the WebView2 Runtime"*. 
-Because we are using Proton (Linux), the game doesn't have access to this Windows/Edge component. Here is the trick to install it inside the game's sandbox:
+Listen up, because this is where the magic happens! If you try to run the game now, you will get an error saying: *"Could not find the WebView2 Runtime"*. 
+
+Because we are using Proton (Linux), the game doesn't have access to this Windows/Edge component out of the box. And if you just add the installer as a separate Non-Steam game, Steam creates a brand new isolated folder so they cant see each other. Here is the trick to install it inside the game's sandbox:
 
 ![NotiGV-PVZGE-WebView2](https://github.com/user-attachments/assets/556cf7e5-18f1-4f24-9d38-a18f973cd534)
 
@@ -103,14 +104,14 @@ Because we are using Proton (Linux), the game doesn't have access to this Window
 
 5. In the Shortcut tab, look at the **Target** field. **Copy that entire path** and paste it somewhere safe (like a blank text document). We will need it back in a minute! 
 
-**IMPORTANT:** If your path has quotes `""` around it, make sure to copy them too!
+   > **IMPORTANT:** If your path has quotes `""` around it, make sure to copy them too! If your folder has a space in it, Steam requires those quotes or it completly breaks the path!
 
 6. Click **Browse...** right below it, and select the **WebView2 Installer** you just downloaded.
 
    ![NotiGV-PVZGE-Steam-properties 3](https://github.com/user-attachments/assets/55f6095a-4ba5-4109-ab2c-e83259c309a7)
    ![NotiGV-PVZGE-Steam-properties 3 5](https://github.com/user-attachments/assets/ce9cabf2-66b7-4683-9a5d-1ef051e9ee9c)
 
-7. **CRITICAL STEP:** Go to the **Compatibility** tab and check **"Force the use of a specific Steam Play compatibility tool"**. Select **Proton Experimental** (or GE-Proton). If you skip this, the installer will just open and close immediately!
+7. **CRITICAL STEP:** Go to the **Compatibilty** tab and check **"Force the use of a specific Steam Play compatibility tool"**. Select **Proton Experimental** (or GE-Proton). If you skip this, the installer will just open and close immediatly!
 
 8. Close the properties window and click the green **Play** button in Steam.
 
@@ -129,7 +130,7 @@ Because we are using Proton (Linux), the game doesn't have access to this Window
 ---
 
 ## 🖤 Step 4: Fixing the Black Screen (GE-Proton)
-The game now has the web engine it needs, but standard Proton might give you a completely black screen. We need a custom community version called GE-Proton :D
+The game now has the web engine it needs, but standard Proton might give you a completly black screen. We need a custom community version called GE-Proton to fix it :D
 
 ![NotiGV-PVZGE-Black Screen](https://github.com/user-attachments/assets/b83b1646-c1ab-480a-b73f-d01b8e4415a0)
 
@@ -147,7 +148,7 @@ The game now has the web engine it needs, but standard Proton might give you a c
    ![NotiGV-PVZGE-Bazaar-ProtonUP-open 2](https://github.com/user-attachments/assets/68217189-b8e7-4743-9767-a28b74978e29)
    ![NotiGV-PVZGE-Bazaar-ProtonUP-add version](https://github.com/user-attachments/assets/425d6a6a-d7ae-41ec-a4ff-c37991df7c31)
 
-4. Make sure the Compatibility tool is set to **GE-Proton**, select the latest version, and click **Install**.
+4. Make sure the Compatibility tool is set to **GE-Proton**, select the latest version (for example, `GE-Proton10-34` works amazing for me), and click **Install**.
 
    ![NotiGV-PVZGE-Bazaar-ProtonUP-add version 2](https://github.com/user-attachments/assets/fbcc300b-b2a8-4acf-ae15-d633876115a8)
 
@@ -164,7 +165,7 @@ We are almost done!
 
    ![NotiGV-PVZGE-Steam-properties](https://github.com/user-attachments/assets/6cdc53f2-6676-4e53-8300-a755ecc2d1fe)
 
-2. Go to the **Compatibility** tab.
+2. Go to the **Compatibilty** tab.
 
    ![NotiGV-PVZGE-Steam-Properties 5](https://github.com/user-attachments/assets/b49cbb8f-a43d-4baa-b996-47bd0bb54a73)
 
@@ -181,18 +182,38 @@ We are almost done!
 
    ![NotiGV-PVZGE-ingame](https://github.com/user-attachments/assets/c611f747-3924-4102-87de-242e9dabfd72)
 
-*Note for Ultrawide Users: Since this game was designed for traditional aspect ratios, you will see black bars on the sides if you play on a 21:9 monitor. This is completely normal! On a handheld, it will fill the screen perfectly :D*
+> **Note for Ultrawide Users:** Since this game was designed for traditional aspect ratios, you will see black bars on the sides if you play on a 21:9 monitor like I do on my desktop PC. This is completly normal! But on a handheld device, it will fill the screen perfectly :D
+
+---
+
+## 🦦 Plan B: The Lutris Alternative (If Steam is Stubborn) :(
+Sometimes, Steam just flat out refuses to cooperate with specific webview setups depending on your SteamOS version, leaving you stuck in an infinite black or white screen loop. A massive shoutout to a community member who confirmed this workaround: if Steam is giving you a headache, Lutris is your best friend! :D
+
+Lutris handles Windows prefixes a little differently, making it a lifesaver for weird ports like this. The process is almost the exact same, we just do the "Switcharoo" trick first!
+
+1. Open the Discover Store in Desktop Mode, search for **Lutris** and install it if you haven't already.
+2. Go to the official Microsoft download page and download the **Evergreen Standalone Installer (x64)** for **WebView2** and keep it handy.
+3. Open Lutris and click the **"+"** button in the top left corner to add a new game. Select **"Add locally installed game"**.
+4. Name it *PvZ Gardenless*.
+5. Go to the **Game options** tab. For the **Executable**, click browse and point it to the **WebView2 Installer** `.exe` you downloaded.
+6. Hit **Save**, then click the **Play** button in Lutris. It will actully run the Microsoft installer inside a fresh Wine prefix! Follow the prompts to finish the install.
+7. Once it's done, right-click the game in Lutris and click **Configure**.
+8. Go back to **Game options** and change the **Executable** path to your main `PvZ_Gardendless.exe` file.
+9. **One final check:** Go to **Configure -> Runner options**, and make sure your Wine version is set to a recent **GE-Proton** (or Wine-GE). This is what ensures you don't get that annoying black screen!
+10. **Want it on Steam?** Right-click your game in Lutris and select **"Create Steam shortcut"**. If you don't see it appear in Steam right away, just close Steam completely and open it back up. Now you can play PvZ directly from your Steam Library in Game Mode! :D
+
+Hit play and enjoy!! :D
 
 ---
 
 ## 📝 Author's Note :D
-Setting up web-based fan games on Linux can be a little tricky with the WebView2 requirements, but the "Switcharoo" trick is a lifesaver you can use for many other games too!
+If you made it this far, your officially ready to defend your garden! Setting up web-based fan games on Linux can be a little tricky with the WebView2 requirements, but the "Switcharoo" trick is a lifesaver you can use for many other games too!
 
 I highly recommend right-clicking the empty game icon in your Steam Library and adding some custom artwork (Grid, Hero, and Logo) from SteamGridDB to make it look official.
 
 ![NotiGV-PVZGE-ingame 2](https://github.com/user-attachments/assets/3ab9ce4c-3272-497a-a295-27f65afa0f87)
 
-Have fun defending your garden! Let me know in the comments if this worked for you! :D
+Have fun defending your garden! Let me know in the comments if this worked for you, or if you run into any weird errors. I'll answer you, or someone else from the community will drop in to help! :D
 
 ---
 
@@ -203,10 +224,12 @@ If you prefer to read this guide with rich formatting, see the step-by-step scre
 
 ---
 
-> ***Disclaimer & Credits:*** This technical guide was written and formatted by ThatGVguy for educational purposes and to help the Linux and handheld gaming community troubleshoot compatibility issues.
+> **Disclaimer & Credits:** This technical guide was written and formatted by ThatGVguy for educational purposes and to help the Linux and handheld gaming community troubleshoot compatibility issues.
 >
-> ***Asset & Property Rights:*** PvZ Gardendless is a fan-made project. All original Plants vs. Zombies assets, characters, and intellectual properties belong to PopCap Games and Electronic Arts (EA). This guide does not host, provide, or directly distribute the game files or Microsoft binaries. All links point to the official project page and Microsoft's official developer resources.
+> **Asset & Property Rights:** PvZ Gardendless is a fan-made project. All original Plants vs. Zombies assets, characters, and intellectual properties belong to PopCap Games and Electronic Arts (EA). This guide does not host, provide, or directly distribute the game files or Microsoft binaries. All links point to the official project page and Microsoft's official developer resources.
 >
-> ***Editing Process:*** Digital creation and language assistance tools were utilized during the final proofreading of this guide to ensure clear, concise, and accurate technical instructions.
-
-*Happy gaming! :D*
+> **Editing Process:** Digital creation and language assistance tools were utilized during the final proofreading of this guide to ensure clear, concise, and accurate technical instructions.
+>
+> Happy gaming! :D
+> 
+> \- **ThatGVguy** :D
