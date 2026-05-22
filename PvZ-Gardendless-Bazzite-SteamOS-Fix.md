@@ -193,14 +193,53 @@ Lutris handles Windows prefixes a little differently, making it a lifesaver for 
 
 1. Open the Discover Store in Desktop Mode, search for **Lutris** and install it if you haven't already.
 2. Go to the official Microsoft download page and download the **Evergreen Standalone Installer (x64)** for **WebView2** and keep it handy.
+![NotiGV-PVZGE-WebView2 site- download](https://github.com/user-attachments/assets/bd688288-2ffd-4106-a820-731bac151a40)
+![NotiGV-PVZGE-WebView2 site- download 2](https://github.com/user-attachments/assets/78e26a65-c518-4aa7-b6b5-baf1f6aa019c)
+![NotiGV-PVZGE-WebView2 site- download 3](https://github.com/user-attachments/assets/af12acdc-943a-4dfc-8024-7f35b6208b7f)
+
 3. Open Lutris and click the **"+"** button in the top left corner to add a new game. Select **"Add locally installed game"**.
+
+### <img width="1519" height="809" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy" src="https://github.com/user-attachments/assets/1181bfd0-0894-435b-9e54-3d913fe9026a" />
+
+### <img width="58" height="56" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 2" src="https://github.com/user-attachments/assets/228f932d-e23e-4c62-bad8-b69f19af90f9" />
+
+### <img width="791" height="614" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 3" src="https://github.com/user-attachments/assets/e549638f-b794-45f4-b3c8-afc7908de563" />
+
 4. Name it *PvZ Gardenless*.
+
+<img width="1046" height="701" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 4" src="https://github.com/user-attachments/assets/d46de342-d1c9-4a05-9af1-544a4126a4ed" />
+
 5. Go to the **Game options** tab. For the **Executable**, click browse and point it to the **WebView2 Installer** `.exe` you downloaded.
-6. Hit **Save**, then click the **Play** button in Lutris. It will actully run the Microsoft installer inside a fresh Wine prefix! Follow the prompts to finish the install.
-7. Once it's done, right-click the game in Lutris and click **Configure**.
-8. Go back to **Game options** and change the **Executable** path to your main `PvZ_Gardendless.exe` file.
-9. **One final check:** Go to **Configure -> Runner options**, and make sure your Wine version is set to a recent **GE-Proton** (or Wine-GE). This is what ensures you don't get that annoying black screen!
+
+<img width="1046" height="701" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 5" src="https://github.com/user-attachments/assets/a3f0c751-ff5c-47f7-a0de-60c54771fd3d" />
+
+<img width="1490" height="336" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 6" src="https://github.com/user-attachments/assets/698e3395-1321-4160-b05f-e2f08515c1a4" />
+
+6. **One final check:** Go to **Configure -> Runner options**, and make sure your Wine version is set to a recent **GE-Proton**. This is what ensures you don't get that annoying black screen!
+
+<img width="1048" height="656" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 7" src="https://github.com/user-attachments/assets/8b220ab1-b811-4413-9914-31d76a9da97d" />
+
+7. Hit **Save**, then click the **Play** button in Lutris. It will actully run the Microsoft installer inside a fresh Wine prefix! Follow the prompts to finish the install.
+
+<img width="1060" height="798" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 8" src="https://github.com/user-attachments/assets/e23d3d38-9b82-4109-9766-0eed7f87c7b7" />
+
+<img width="1520" height="806" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 9" src="https://github.com/user-attachments/assets/3de99aa4-30d1-468f-9ae1-9ed957b3c343" />
+
+8. Once it's done, right-click the game in Lutris and click **Configure**.
+
+9. Go back to **Game options** and change the **Executable** path to your main `PvZ_Gardendless.exe` file.
+
+<img width="1502" height="477" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 10" src="https://github.com/user-attachments/assets/1aa92244-8cdd-4e92-8d5a-1746ab7acee6" />
+
+<img width="1049" height="722" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 11" src="https://github.com/user-attachments/assets/ccc06aa9-81cc-4736-b4ae-fc9c33fedfd0" />
+
+<img width="994" height="786" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 12" src="https://github.com/user-attachments/assets/7739f9a6-cbdd-4c0c-9973-98b711721788" />
+
 10. **Want it on Steam?** Right-click your game in Lutris and select **"Create Steam shortcut"**. If you don't see it appear in Steam right away, just close Steam completely and open it back up. Now you can play PvZ directly from your Steam Library in Game Mode! :D
+
+<img width="634" height="741" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 13" src="https://github.com/user-attachments/assets/75720aad-4760-49b7-994f-974bdc9ee32c" />
+
+<img width="3086" height="941" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 14" src="https://github.com/user-attachments/assets/d6f52ffe-2d54-48e6-a984-43e7af495e61" />
 
 Hit play and enjoy!! :D
 
