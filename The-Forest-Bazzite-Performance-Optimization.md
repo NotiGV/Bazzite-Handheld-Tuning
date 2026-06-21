@@ -32,15 +32,15 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 *This setup maintains maximum visual quality while eliminating those annoying blurry cinematic filters. It also reduces a few "Ultra" options that bottleneck your CPU without giving you any real visual benefit.*
 
 ### Left Column Settings
-* **Antialiasing:** `HIGH (TAA)` (If you notice a slight blur when moving the camera around, just swap it to `SMAA` for maximum sharpness. I bounce between the two depending on the day lol).
+* **Antialiasing:** `HIGH (TAA)`
 * **Shadows:** `HIGH` (Avoid *Very High*, it consumes way too many resources for a difference you will barely even notice. Trustme I cant tell the difference :().
 * **Far Shadows:** `ON`.
-* **Draw Distance:** `HIGH` or `VERY HIGH` (Your GPU can handle this with zero sweat, but **High** is usually more than enough).
+* **Draw Distance:** `HIGH` or `VERY HIGH` (If your GPU can handle this with zero sweat, but **High** is usually more than enough)
 * **Sunshine Occlusion:** `ON`.
 * **Light Scatter:** `HIGH`.
-* **Terrain:** `PARALLAX` (Makes the mud and rocks look super 3D and awesome!).
+* **Terrain:** `PARALLAX` (Makes the mud and rocks look super 3D and awesome!!).
 * **Texture Quality:** `FULL RESOLUTION` (You paid for that VRAM, let's use it all! :D).
-* **Grass Distance:** `HIGH`. If you want it on **Very High** you will see more grass in the distance, but that really depends on whether you prefer it or not, In my case, I don't see it neccesary at all ;)
+* **Grass Distance:** `FAR`. If you want it on **Very FAR** you will see more grass in the distance, but that really depends on whether you prefer it or not, In my case, I don't see it neccesary at all ;)
 * **Grass Density:** `HIGH` (Lowering this from **Ultra** to **High** is an absolute lifesaver. It takes a massive load off your CPU and definetly improves your 1% lows).
 
 ### Right Column Settings
@@ -48,14 +48,14 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 
 * **Ocean Quality:** `LOW`. This one is dynamic! If you go to the ocean a lot or live there and want to see as best as possible underwater, **Flat** is without a doubt the best option (the water gets way more transparent). But if you want a realistic experience, **Low** and **High** are fine. I personally keep it on *Low* because I almost never visit the ocean anyway :D
 * **SSAO Type:** `AMPLIFY`.
-* **SSAO Quality:** `HIGH` (Stay away from **Ultra** here, trustme it eats frames for breakfast).
+* **SSAO Quality:** `HIGH` (Stay away from **Ultra** here, trustme it eats frames for breakfast)
 * **Motion Blur:** `OFF` **(CRITICAL!)** (When you are pushing high frames, this literally just smears your screen).
-* **Chromatic Aberration:** `OFF` **(CRITICAL!)** (Turns off that weird color distortion on the edges of the screen for a much cleaner look).
+* **Chromatic Aberration:** `OFF` **(CRITICAL!)** (Turns off that weird color distortion on the edges of the screen for a much cleaner look) :)
 * **Bloom:** `ON`.
-* **Film Grain:** `OFF` **(CRITICAL!)** (Removes that visual "noise" so you can see the forest in crystal clear HD).
+* **Film Grain:** `OFF` **(CRITICAL!)** (Removes that visual "noise" so you can see the forest in crystal clear HD)
 * **Color Grading:** `ORIGINAL` (Or whatever you personally prefer)
 * **Screen Space Reflection:** `ON`.
-* **Volumetric Clouds:** `ON`.
+* **Volumetric Clouds:** `ON`. If you want to see wispy clouds
 
 ---
 
@@ -66,9 +66,8 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 * **Enable VRR (FreeSync):** **ON** (This makes sure your monitor syncs perfectly with your FPS so you don't feel any stutters).
 * **Enable HDR:** **OFF** (The game just doesn't support it natively).
 * **Allow Tearing:** **OFF** (Since we have VRR active, leaving this on would just cause unnecesary visual tearing).
-* **Half Rate Shading:** **OFF** (This is a battery-saving trick meant for handhelds; on a desktop PC, it will just make your shadows look like pixelated garbage. Seriously, keep it off!).
+* **Half Rate Shading:** **OFF** (This is a battery saving trick meant for handhelds; on a desktop PC, it will just make your shadows look like pixelated garbage. Seriously, keep it off!)
 * **Scaling Mode:** `FIT`. This is honestly just personal preference, but I prefer Fit so it uses the exact resolution I want without stretching the image weirdly. But like I said, it's up to you ;)
-* **Scaling Filter:** `SHARP`. This one is particular. I tested the changes between lienar, pixel, and sharp, and I can tell you that the difference is way better in Sharp and Linear compared to Pixel. Between the two, I stuck with Sharp because I noticed a clear improvement over Linear.
 
 ---
 
