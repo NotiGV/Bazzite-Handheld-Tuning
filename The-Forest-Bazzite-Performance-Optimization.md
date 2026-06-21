@@ -21,10 +21,15 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 
 **The Desktop Rig (Ultrawide Gaming & Streaming)**
 * **OS:** Bazzite
+<img width="960" height="960" alt="Bazzite_Logo-ThatGVguy" src="https://github.com/user-attachments/assets/d163786e-c5d7-458c-b026-e3c8afaa79b3" />
 * **CPU:** AMD Ryzen 5 5600
+<img width="800" height="800" alt="AMD Ryzen 5 5600" src="https://github.com/user-attachments/assets/3d3bb854-19e6-4ed9-9e53-9770980fbaae" />
 * **GPU:** ASRock Challenger Radeon RX 7800 XT OC (16GB VRAM)
+<img width="800" height="500" alt="DUALFANDESIGN-Radeon RX 7800 XT Challenger 16GB OC_mobile" src="https://github.com/user-attachments/assets/8e2d7b3f-c18d-46c6-8024-21abb262e3a2" />
 * **RAM:** 16 GB (2x8) T-Force Delta R @ 3200MHz
+<img width="1000" height="1000" alt="16 GB (2x8) T-Force Delta R @ 3200MHz" src="https://github.com/user-attachments/assets/4bf406a5-492b-44d6-bd5f-1f49c96788bb" />
 * **Monitor:** Xiaomi G34WQi (Ultrawide 21:9, 1440p, 180Hz)
+<img width="1600" height="1600" alt="_Xiaomi G34WQi" src="https://github.com/user-attachments/assets/c39f4439-155b-498e-b825-44a478ea7dea" />
 
 ---
 
