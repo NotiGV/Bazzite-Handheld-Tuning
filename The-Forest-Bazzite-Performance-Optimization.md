@@ -52,7 +52,7 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 * **Motion Blur:** `OFF` **(CRITICAL!)** (When you are pushing high frames, this literally just smears your screen).
 * **Chromatic Aberration:** `OFF` **(CRITICAL!)** (Turns off that weird color distortion on the edges of the screen for a much cleaner look).
 * **Bloom:** `ON`.
-* **Film Grain:** `OFF` **(CRITICAL!)** (Removes that visual "sand/noise" so you can see the forest in crystal clear HD).
+* **Film Grain:** `OFF` **(CRITICAL!)** (Removes that visual "noise" so you can see the forest in crystal clear HD).
 * **Color Grading:** `ORIGINAL` (Or whatever you personally prefer)
 * **Screen Space Reflection:** `ON`.
 * **Volumetric Clouds:** `ON`.
