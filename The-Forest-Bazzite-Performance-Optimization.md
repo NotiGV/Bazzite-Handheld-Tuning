@@ -21,22 +21,36 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 
 **The Desktop Rig (Ultrawide Gaming & Streaming)**
 * **OS:** Bazzite
-<img width="960" height="960" alt="Bazzite_Logo-ThatGVguy" src="https://github.com/user-attachments/assets/d163786e-c5d7-458c-b026-e3c8afaa79b3" />
+
+<img width="400" height="400" alt="Bazzite_Logo-ThatGVguy" src="https://github.com/user-attachments/assets/d163786e-c5d7-458c-b026-e3c8afaa79b3" />
+
 * **CPU:** AMD Ryzen 5 5600
-<img width="800" height="800" alt="AMD Ryzen 5 5600" src="https://github.com/user-attachments/assets/3d3bb854-19e6-4ed9-9e53-9770980fbaae" />
+
+<img width="400" height="400" alt="AMD Ryzen 5 5600" src="https://github.com/user-attachments/assets/3d3bb854-19e6-4ed9-9e53-9770980fbaae" />
+
 * **GPU:** ASRock Challenger Radeon RX 7800 XT OC (16GB VRAM)
-<img width="800" height="500" alt="DUALFANDESIGN-Radeon RX 7800 XT Challenger 16GB OC_mobile" src="https://github.com/user-attachments/assets/8e2d7b3f-c18d-46c6-8024-21abb262e3a2" />
+
+<img width="600" height="350" alt="DUALFANDESIGN-Radeon RX 7800 XT Challenger 16GB OC_mobile" src="https://github.com/user-attachments/assets/8e2d7b3f-c18d-46c6-8024-21abb262e3a2" />
+
 * **RAM:** 16 GB (2x8) T-Force Delta R @ 3200MHz
-<img width="1000" height="1000" alt="16 GB (2x8) T-Force Delta R @ 3200MHz" src="https://github.com/user-attachments/assets/4bf406a5-492b-44d6-bd5f-1f49c96788bb" />
+
+<img width="400" height="400" alt="16 GB (2x8) T-Force Delta R @ 3200MHz" src="https://github.com/user-attachments/assets/4bf406a5-492b-44d6-bd5f-1f49c96788bb" />
+
 * **Monitor:** Xiaomi G34WQi (Ultrawide 21:9, 1440p, 180Hz)
-<img width="1600" height="1600" alt="_Xiaomi G34WQi" src="https://github.com/user-attachments/assets/c39f4439-155b-498e-b825-44a478ea7dea" />
+
+<img width="600" height="600" alt="_Xiaomi G34WQi" src="https://github.com/user-attachments/assets/c39f4439-155b-498e-b825-44a478ea7dea" />
 
 ---
 
 ## 🌲 In-Game Settings (The Sweet Spot)
 *This setup maintains maximum visual quality while eliminating those annoying blurry cinematic filters. It also reduces a few "Ultra" options that bottleneck your CPU without giving you any real visual benefit.*
 
+<img width="2264" height="1160" alt="The Forest-Options Menu-ThatGVguy-bazzite" src="https://github.com/user-attachments/assets/9521425f-3a22-4920-8d23-df1059e0db1f" />
+
 ### Left Column Settings
+
+<img width="1094" height="844" alt="The Forest-Options Menu 1-ThatGVguy-bazzite" src="https://github.com/user-attachments/assets/dd351f0b-d3ce-4f85-9cfe-789c0bf562ef" />
+
 * **Antialiasing:** `HIGH (TAA)`
 * **Shadows:** `HIGH` (Avoid *Very High*, it consumes way too many resources for a difference you will barely even notice. Trustme I cant tell the difference :().
 * **Far Shadows:** `ON`.
@@ -49,9 +63,24 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 * **Grass Density:** `HIGH` (Lowering this from **Ultra** to **High** is an absolute lifesaver. It takes a massive load off your CPU and definetly improves your 1% lows).
 
 ### Right Column Settings
+
+<img width="1094" height="844" alt="The Forest-Options Menu 2-ThatGVguy-bazzite" src="https://github.com/user-attachments/assets/8a58f56c-ba7e-4b16-9dc0-ca75c2c639be" />
+
 **(Quick note here: You can honestly set most of these to Ultra, but to be honest there isn't much of a difference in my opinion, so save those frames for smoother gameplay!)**
 
-* **Ocean Quality:** `LOW`. This one is dynamic! If you go to the ocean a lot or live there and want to see as best as possible underwater, **Flat** is without a doubt the best option (the water gets way more transparent). But if you want a realistic experience, **Low** and **High** are fine. I personally keep it on *Low* because I almost never visit the ocean anyway :D
+* **Ocean Quality:** `LOW`. This one is dynamic! If you go to the ocean a lot or live there and want to see as best as possible underwater, **Flat** is without a doubt the best option (the water gets way more transparent). 
+
+<img width="3440" height="1440" alt="The Forest-ThatGVguy-bazzite-Flat Ocean Quality" src="https://github.com/user-attachments/assets/5e880388-e650-44ae-8ca1-741cf4b1d807" />
+
+But if you want a realistic experience, **Low** 
+
+<img width="3440" height="1440" alt="The Forest-ThatGVguy-bazzite-low ocean quality" src="https://github.com/user-attachments/assets/035f1fd4-22de-425c-80a4-69d3b54bc93f" />
+
+And **High** are fine. 
+
+<img width="3440" height="1440" alt="The Forest-ThatGVguy-bazzite-High Ocean Quality" src="https://github.com/user-attachments/assets/3c78e184-cbd8-4e83-b405-fe80817d934a" />
+
+I personally keep it on *Low* because I almost never visit the ocean anyway :D
 * **SSAO Type:** `AMPLIFY`.
 * **SSAO Quality:** `HIGH` (Stay away from **Ultra** here, trustme it eats frames for breakfast)
 * **Motion Blur:** `OFF` **(CRITICAL!)** (When you are pushing high frames, this literally just smears your screen).
@@ -66,9 +95,15 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 
 ## ⚙️ Steam / Gamescope Configuration (Bazzite Side Menu)
 
+<img width="3440" height="1440" alt="The Forest-ThatGVguy-bazzite-Processing Shaders" src="https://github.com/user-attachments/assets/6280566b-cb70-401a-9597-9ae621a2eb1e" />
+
 **💡 Quick Tip:** When you launch the game, you might see a small Steam window popping up saying it's processing Vulkan shaders. Just let it finish! It takes 10 seconds at most, and your in game perfomance will seriously thank you later! :b 
 
 *These are the tweaks you apply in the quick access performance menu (the one you open with the three-dot button or Home button + A on Xbox Layout/ X on Playstation / B on Switch).*
+
+<img width="3440" height="1440" alt="The Forest-ThatGVguy-bazzite-Steam Quick Access Performance Menu" src="https://github.com/user-attachments/assets/d849d575-fdc2-4234-aeba-1c323d52e377" />
+
+<img width="667" height="1276" alt="The Forest-ThatGVguy-bazzite-Steam Quick Access Performance Menu 2" src="https://github.com/user-attachments/assets/a9234d9b-8ac7-4366-a560-64426fde7f87" />
 
 * **Frame Limit:** Set this about **5 to 8 FPS below your monitor's maximum**. Why? Because if you hit your absolute max refresh rate, you step outside your VRR/FreeSync window and V-Sync forces itself on, giving you annoying input lag. Capping it just below the limit keeps everything buttery smooth and responsive!
 * **Enable VRR (FreeSync):** **ON** (This makes sure your monitor syncs perfectly with your FPS so you don't feel any stutters).
@@ -82,6 +117,9 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 ## 🚀 My Personal Proton Experience & Launch Commands
 
 ### Why you NEED GE-Proton!
+
+<img width="3440" height="1440" alt="The Forest-GE proton-ThatGVguy-bazzite" src="https://github.com/user-attachments/assets/8032d135-aeb5-49cb-9af8-b7d786fd8ee6" />
+
 You can probably just launch the game without touching the compatibility tab, but you will get awful perfomance. In my case, playing on an ultrawide monitor (which already takes a hit on performance :( , my experience was around 80 to 90 FPS with a bunch of bad lows. 
 
 That's when I went into the tab and activated **Proton Experimental**, which surprisingly gave me between 100 to 120 FPS, and around 80 to 90 inside my base (keep in mind I had a lot of things built in the same base and it was right in the middle of the forest). 
@@ -92,6 +130,8 @@ At first, without Experimental or GE, my GPU was sitting at around 60% usage and
 
 ### The Magic Launch Command
 Go to the game's Properties in Steam and drop this into the Launch Options:
+
+<img width="3440" height="1440" alt="The Forest-ThatGVguy-bazzite-Launch options" src="https://github.com/user-attachments/assets/732fef33-5fbc-4e62-999f-0e51b1b8e3d1" />
 
 ```bash
 RADV_PERFTEST=sam %command%
