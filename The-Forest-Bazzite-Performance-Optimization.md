@@ -103,6 +103,12 @@ Setting this up can seem daunting at first, but getting the configuration right 
 I hope this fast setup guide helps you focus on building your base and fighting mutants rather than tweaking settings in menus for hours.
 
 ---
+## 📖 Read the Full Guide
+If you prefer to read this guide with rich formatting, see the step-by-step screenshots, or want to drop a comment to the community, check out the official Steam version right here:
+
+👉 **[Read and Favorite the Official Steam Guide Here](https://steamcommunity.com/sharedfiles/filedetails/?id=3748903209)**
+
+---
 
 > ***Disclaimer:*** This technical guide was written and formatted by ThatGVguy to help the Linux and gaming community optimize their game setups. 
 >
