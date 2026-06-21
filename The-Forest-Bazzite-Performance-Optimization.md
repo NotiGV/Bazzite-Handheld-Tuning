@@ -79,7 +79,7 @@ You can probably just launch the game without touching the compatibility tab, bu
 
 That's when I went into the tab and activated **Proton Experimental**, which surprisingly gave me between 100 to 120 FPS, and around 80 to 90 inside my base (keep in mind I had a lot of things built in the same base and it was right in the middle of the forest). 
 
-But I still felt my rig could do more. So I activated **GE-Proton**—specifically version **GE-Proton10-28** (at the time of publishing this guide, but I reccomend updating to the latest one :D). I loaded into the game and BOOM: 130 to 150 FPS, and 90 to 100 in my base! 
+But I still felt my rig could do more. So I activated **GE-Proton** specifically version **GE-Proton10-28** (at the time of publishing this guide, but I reccomend updating to the latest one :D). I loaded into the game and BOOM: 130 to 150 FPS, and 90 to 100 in my base! 
 
 At first, without Experimental or GE, my GPU was sitting at around 60% usage and my CPU at 55%, which is weird. Once you activate Experimental, you will see a shift where the GPU jumps to 100% (don't worry, this is fine! :D) and the processor drops to 40%. With GE-Proton, the change was in the CPU which sat at around 30 to 35% usage. (I do recommend checking the temperature of both, that *can* be a concern, but the capacity is good like this :D. Also keep in mind that I have a mini CPU/GPU bottleneck on my end, but those are just details :D).
 
