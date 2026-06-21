@@ -3,7 +3,7 @@
 # The Forest on Bazzite Desktop Linux: The Ultimate Performance & Setup Guide
 **By ThatGVguy**
 
-A fast, no-nonsense guide to getting *The Forest* running absolutely flawlessly on Bazzite Linux. Stop guessing with the settings menu and start surviving! The whole point of this guide is to help you get the best visual quality, eliminate blurry cinematic filters, and stop heavy "Ultra" settings from choking your CPU for no reason. 
+A fast, no-nonsense guide to getting The Forest running absolutely flawlessly on Bazzite Linux. Stop guessing with the settings menu and start surviving! The whole point of this guide is to help you get the best visual quality, eliminate blurry cinematic filters, and stop heavy "Ultra" settings from choking your CPU for no reason. 
 
 So, grab your trusty axe, and let's get your game looking crisp! :D
 
@@ -35,25 +35,25 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 * **Antialiasing:** `HIGH (TAA)` (If you notice a slight blur when moving the camera around, just swap it to `SMAA` for maximum sharpness. I bounce between the two depending on the day lol).
 * **Shadows:** `HIGH` (Avoid *Very High*, it consumes way too many resources for a difference you will barely even notice. Trustme I cant tell the difference :().
 * **Far Shadows:** `ON`.
-* **Draw Distance:** `HIGH` or `VERY HIGH` (Your GPU can handle this with zero sweat, but *High* is usually more than enough).
+* **Draw Distance:** `HIGH` or `VERY HIGH` (Your GPU can handle this with zero sweat, but **High** is usually more than enough).
 * **Sunshine Occlusion:** `ON`.
 * **Light Scatter:** `HIGH`.
 * **Terrain:** `PARALLAX` (Makes the mud and rocks look super 3D and awesome!).
 * **Texture Quality:** `FULL RESOLUTION` (You paid for that VRAM, let's use it all! :D).
-* **Grass Distance:** `HIGH`. If you want it on *Very High* you will see more grass in the distance, but that really depends on whether you prefer it or not. In my case, I don't see it neccesary at all :D
-* **Grass Density:** `HIGH` (Lowering this from *Ultra* to *High* is an absolute lifesaver. It takes a massive load off your CPU and definetly improves your 1% lows).
+* **Grass Distance:** `HIGH`. If you want it on **Very High** you will see more grass in the distance, but that really depends on whether you prefer it or not, In my case, I don't see it neccesary at all ;)
+* **Grass Density:** `HIGH` (Lowering this from **Ultra** to **High** is an absolute lifesaver. It takes a massive load off your CPU and definetly improves your 1% lows).
 
 ### Right Column Settings
-*(Quick note here: You can honestly set most of these to Ultra, but to be honest there isn't much of a difference in my opinion, so save those frames for smoother gameplay!)*
+**(Quick note here: You can honestly set most of these to Ultra, but to be honest there isn't much of a difference in my opinion, so save those frames for smoother gameplay!)**
 
-* **Ocean Quality:** `LOW`. This one is dynamic! If you go to the ocean a lot or live there and want to see as best as possible underwater, *Flat* is without a doubt the best option (the water gets way more transparent). But if you want a realistic experience, *Low* and *High* are fine. I personally keep it on *Low* because I almost never visit the ocean anyway :D
+* **Ocean Quality:** `LOW`. This one is dynamic! If you go to the ocean a lot or live there and want to see as best as possible underwater, **Flat** is without a doubt the best option (the water gets way more transparent). But if you want a realistic experience, **Low** and **High** are fine. I personally keep it on *Low* because I almost never visit the ocean anyway :D
 * **SSAO Type:** `AMPLIFY`.
-* **SSAO Quality:** `HIGH` (Stay away from *Ultra* here, trustme it eats frames for breakfast).
+* **SSAO Quality:** `HIGH` (Stay away from **Ultra** here, trustme it eats frames for breakfast).
 * **Motion Blur:** `OFF` **(CRITICAL!)** (When you are pushing high frames, this literally just smears your screen).
 * **Chromatic Aberration:** `OFF` **(CRITICAL!)** (Turns off that weird color distortion on the edges of the screen for a much cleaner look).
 * **Bloom:** `ON`.
 * **Film Grain:** `OFF` **(CRITICAL!)** (Removes that visual "sand/noise" so you can see the forest in crystal clear HD).
-* **Color Grading:** `ORIGINAL` (Or whatever you personally prefer, honestly! Sometimes *Texas* looks pretty cool for a dry vibe).
+* **Color Grading:** `ORIGINAL` (Or whatever you personally prefer)
 * **Screen Space Reflection:** `ON`.
 * **Volumetric Clouds:** `ON`.
 
@@ -89,24 +89,24 @@ Go to the game's Properties in Steam and drop this into the Launch Options:
 ```bash
 RADV_PERFTEST=sam %command%
 ```
-*(Note: If you saw `OBS_VKCAPTURE=1` in my other guides, don't worry about it—that's just something I use for recording and stremear. For the game itself, you only need the SAM command).*
+*(Note: If you saw `OBS_VKCAPTURE=1` in the image, don't worry about it that's just something I use for recording and streaming. For the game itself, you only need the SAM command).*
 
 I got this info from a Reddit thread. I don't know if it's a placevo effect, but I definitely noticed a change in the amount of stutters and a solid improvement in my 1% low FPS! If you want to dive deeper, I recommend reading this thread: [Quick heads up about something I discovered](https://www.reddit.com/r/linux_gaming/comments/v58ts5/quick_heads_up_about_something_i_discovered/). There is more out there, but this gave me the foundation for it. You might as well type it in, you lose nothing :D 
 
-**Important:** You MUST have *Resizable BAR* enabled in your computer's BIOS first, otherwise it possibly won't do anything :D Also, this command is an exclusive Bazzite / Linux driver trick!
+**Important:** You MUST have *Resizable BAR* enabled in your computer's BIOS first, otherwise it possibly won't do anything :D Also, this command is a Linux driver trick! ;)
 
 ---
 
 ## 📝 Author's Note :D
 Setting this up can seem daunting at first, but getting the configuration right just once lets you forget about the technical stuff and focus entirely on the fun later.
 
-I hope this fast setup guide helps you focus on building your base and fighting mutants rather than tweaking settings in menus for hours. I'd love to hear how your game is running now in the comments below! 
+I hope this fast setup guide helps you focus on building your base and fighting mutants rather than tweaking settings in menus for hours.
 
 ---
 
 > ***Disclaimer:*** This technical guide was written and formatted by ThatGVguy to help the Linux and gaming community optimize their game setups. 
 >
-> ***Technical Note:*** The environment variables and Proton configurations provided are standard, safe system-level tweaks for Bazzite/SteamOS. Applying custom launch options is always done at your own discretion.
+> ***Technical Note:*** The environment variables and Proton configurations provided are standard, safe system-level tweaks for Bazzite. Applying custom launch options is always done at your own discretion.
 >
 > ***Editing Process:*** Digital creation and language assistance tools were utilized during the final proofreading of this guide to ensure clear, concise, and accurate technical instructions.
 
