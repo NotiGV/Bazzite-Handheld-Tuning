@@ -10,6 +10,8 @@ If you are tired of searching for solutions online and finding absolutely nothin
 ## 📚 Table of Contents (Current Guides)
 Here you will find the raw Markdown versions of my guides. Feel free to use the commands and scripts!
 
+* 🌲 **[The Forest on Bazzite Desktop Linux: The Ultimate Performance & Setup Guide](The-Forest-Bazzite-Performance-Optimization.md)**
+  * *The definitive In-Game settings for high FPS, Gamescope tweaks, and GE-Proton / SAM launch commands to maximize AMD hardware performance.*
 * 🎥 **[How to Record and Stream with OBS on Bazzite (Game Mode)](OBS-Bazzite-Recording-Fix.md)**
   * *Fixes Gamescope black screens, Ultrawide 21:9 scaling, and sets up OBS VkCapture for native games and emulators.*
 * 🌱 **[PvZ Gardendless on Steam Deck / Bazzite (The Switcharoo Trick)](PvZ-Gardendless-Bazzite-SteamOS-Fix.md)**
