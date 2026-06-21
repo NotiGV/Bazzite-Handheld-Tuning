@@ -60,6 +60,9 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 ---
 
 ## ⚙️ Steam / Gamescope Configuration (Bazzite Side Menu)
+
+**💡 Quick Tip:** When you launch the game, you might see a small Steam window popping up saying it's processing Vulkan shaders. Just let it finish! It takes 10 seconds at most, and your in game perfomance will seriously thank you later! :b 
+
 *These are the tweaks you apply in the quick access performance menu (the one you open with the three-dot button or Home button + A on Xbox Layout/ X on Playstation / B on Switch).*
 
 * **Frame Limit:** Set this about **5 to 8 FPS below your monitor's maximum**. Why? Because if you hit your absolute max refresh rate, you step outside your VRR/FreeSync window and V-Sync forces itself on, giving you annoying input lag. Capping it just below the limit keeps everything buttery smooth and responsive!
