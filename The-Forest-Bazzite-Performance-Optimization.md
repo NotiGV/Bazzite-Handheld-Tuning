@@ -1,4 +1,4 @@
-
+<img width="800" height="800" alt="The Forest-ThatGVguy-bazzite" src="https://github.com/user-attachments/assets/3d50ee4e-fcaa-4cfd-bb2e-d749dbfc6a7c" />
 
 # The Forest on Bazzite Desktop Linux: The Ultimate Performance & Setup Guide
 **By ThatGVguy**
