@@ -60,7 +60,7 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 ---
 
 ## ⚙️ Steam / Gamescope Configuration (Bazzite Side Menu)
-*These are the tweaks you apply in the quick access performance menu (the one you open with the three-dot button).*
+*These are the tweaks you apply in the quick access performance menu (the one you open with the three-dot button or Home button + A on Xbox Layout/ X on Playstation / B on Switch).*
 
 * **Frame Limit:** Set this about **5 to 8 FPS below your monitor's maximum**. Why? Because if you hit your absolute max refresh rate, you step outside your VRR/FreeSync window and V-Sync forces itself on, giving you annoying input lag. Capping it just below the limit keeps everything buttery smooth and responsive!
 * **Enable VRR (FreeSync):** **ON** (This makes sure your monitor syncs perfectly with your FPS so you don't feel any stutters).
