@@ -75,7 +75,7 @@ Just to give you an idea of the PC this is being tested on. Keep in mind your pe
 ## 🚀 My Personal Proton Experience & Launch Commands
 
 ### Why you NEED GE-Proton!
-You can probably just launch the game without touching the compatibility tab, but you will get awful perfomance. In my case, playing on an ultrawide monitor (which already takes a hit on performance :(), my experience was around 80 to 90 FPS with a bunch of bad lows. 
+You can probably just launch the game without touching the compatibility tab, but you will get awful perfomance. In my case, playing on an ultrawide monitor (which already takes a hit on performance :( , my experience was around 80 to 90 FPS with a bunch of bad lows. 
 
 That's when I went into the tab and activated **Proton Experimental**, which surprisingly gave me between 100 to 120 FPS, and around 80 to 90 inside my base (keep in mind I had a lot of things built in the same base and it was right in the middle of the forest). 
 
