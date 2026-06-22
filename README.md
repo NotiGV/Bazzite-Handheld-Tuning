@@ -32,7 +32,7 @@ All the tutorials and fixes in this repository are actively tested on my persona
 * **OS:** Bazzite
 * **CPU:** AMD Ryzen 5 5600
 * **GPU:** ASRock Challenger Radeon RX 7800 XT OC (16GB VRAM)
-* **RAM:** 16 GB (2x8) T-Force Delta R @ 3200MHz
+* **RAM:** 32 GB (2x16) Kingbank @ 3200MHz
 * **Monitor:** Xiaomi G34WQi (Ultrawide 21:9, 1440p, 180Hz)
 
 ### 2. The Handheld (Portable Emulation & AAA)
