@@ -144,6 +144,28 @@ I got this info from a Reddit thread. I don't know if it's a placevo effect, but
 
 ---
 
+## ⚖️ High FPS vs Pure Fluidity (Optional)
+
+This is a bit of a controversial topic. Everything we did above is perfect for getting the absolute highest FPS possible. But if you look closely, those frames fluctuate a lot. If you want pure, buttery smoothness, I highly recommend capping your FPS...
+
+But wait, if we just fought for more frames, why cap them? the answer is **Frame Pacing**!
+
+If your rig reaches around 120 to 150 FPS like mine, and your monitor is 180Hz, capping the game at **90 FPS** is the magic trick. why? Because 180 / 90 = 2. You want the result to be a clean, whole number! This means your monitor displays exactly one game frame for every two monitor refreshes perfectly, it creates a flawless, buttery sensation. You *could* do 60 FPS (180 / 60 = 3), but dropping from 150 down to 60 is very noticeable, which is why 90 is the absolute sweet spot!! :D
+
+Here is a quick cheat sheet depending on your monitor's max Hz and what FPS your PC can comfortably hold without dropping:
+
+* **120Hz Monitor:** Cap at 60 FPS (divided by 2).
+* **180Hz Monitor:** Cap at 90 FPS (divided by 2) or 60 FPS (divided by 3).
+* **240Hz Monitor:** Cap at 120 FPS (divided by 2), 80 FPS (divided by 3), or 60 FPS (divided by 4).
+* **360Hz Monitor:** Cap at 180 FPS (divided by 2), 120 FPS (divided by 3), or 90 FPS (divided by 4).
+* **480Hz Monitor:** Cap at 240 FPS (divided by 2), 160 FPS (divided by 3), or 120 FPS (divided by 4).
+
+**PS: You will still notice occasional stutters.** why? Honestly, it's just the game engine. I tested it on completely Low settings and still got stutters at a locked 60 FPS. So, if you want to play *The Forest*, you just have to accept a random hiccup here and there
+
+As a friend, I seriously recommend capping your frames using the Gamescope menu we talked about earlier. I know it sounds counterproductive after squeezing every drop of perfomance, but trust me, you will get used to the locked 90 or 120 (depending on your monitor) and it feels absolutely amazing! :D
+
+---
+
 ## 📝 Author's Note :D
 Setting this up can seem daunting at first, but getting the configuration right just once lets you forget about the technical stuff and focus entirely on the fun later.
 
