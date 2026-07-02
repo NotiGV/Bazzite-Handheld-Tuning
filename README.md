@@ -33,7 +33,7 @@ All the tutorials and fixes in this repository are actively tested on my persona
 * **CPU:** AMD Ryzen 5 5600
 * **GPU:** ASRock Challenger Radeon RX 7800 XT OC (16GB VRAM)
 * **RAM:** 32 GB (2x16) Kingbank @ 3200MHz
-* **Monitor:** Xiaomi G34WQi (Ultrawide 21:9, 1440p, 180Hz)
+* **Monitor:** ASUS ROG Strix XG27AQMGR (16:9, 1440p, 240Hz, OLED)
 
 ### 2. The Handheld (Portable Emulation & AAA)
 * **Device:** Lenovo Legion Go
