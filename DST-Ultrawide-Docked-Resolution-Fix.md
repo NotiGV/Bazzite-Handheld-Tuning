@@ -85,6 +85,33 @@ It beautifully centers your stats, displays exact numbers, and makes them infini
 
 Hope this helps you survive out there!! Don't starve, and enjoy your crisp native resolution layout! :D
 
+### FPS Stuck at 60?
+Cant change the refresh rate when saving? If you want to play at more than 60 FPS but the game keeps reseting your choice back to 60, you will need to do one quick extra step!!
+
+1. Switch over to **Desktop Mode**
+
+2. Open your terminal (Konsole) and type the following command to find your config file:
+
+<img width="984" height="568" alt="Dont Starve Together-steam-deck-bazzite-fps-thatGVguy" src="https://github.com/user-attachments/assets/7e2b86ec-eb2d-416c-a30c-145d34bdb4fe" />
+ 
+   `find ~ -type f -name "client.ini" -path "*/DoNotStarveTogether/*"`
+
+3. This will spit out a file path. It will look something exactly like this:
+
+   `/home/[YOUR_USER]/.local/share/Steam/steamapps/compatdata/322330/pfx/drive_c/users/steamuser/Documents/Klei/DoNotStarveTogether/[YOUR_STEAM_ID]/client.ini`
+
+4. Copy that exact path and paste it directly into Dolphin's (your file manager) address bar. This will open the configuration text file.
+
+<img width="2560" height="96" alt="Dont Starve Together-steam-deck-bazzite-dolphin search-thatGVguy" src="https://github.com/user-attachments/assets/ea986197-4a7f-4c5e-9b9e-f4f30370e753" />
+
+5. Search for the `refresh_rate` line in there and change the `60` to the maximum FPS number of your monitor.
+
+<img width="1394" height="1167" alt="Dont Starve Together-steam-deck-bazzite-fps ini-thatGVguy" src="https://github.com/user-attachments/assets/75375a9f-1ab7-49fb-a6d5-d2a85e799b6a" />
+
+6. Hit **Save** on the file and close it.
+
+And with that, you will finaly have the crisp resolution and the ultra smooth FPS you always wanted! :D
+
 ---
 
 ## 📖 Read the Full Guide
