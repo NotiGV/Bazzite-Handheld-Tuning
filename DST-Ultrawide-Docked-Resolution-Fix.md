@@ -39,6 +39,30 @@ Steamdeck=0 %command%
 
 ---
 
+## The Last Step: In-Game Settings (Super Important!)
+
+We are almost there! Once you have placed the command string and changed the resolution option in Steam, we just need to do one last quick thing inside the game itself to make everything work perfectly. Just follow these simple steps:
+
+**1. Launch the game:** Launch the game normally and go straight into **Options** from the main menu
+
+
+<img width="2560" height="1440" alt="Dont Starve Together-steam-deck-bazzite-in game-thatGVguy" src="https://github.com/user-attachments/assets/a7c1a058-0a6e-4fe6-b57f-e7f287505f35" />
+
+**2. Access graphics menu:** On the left sidebar menu, head over to the **Graphics** tab.
+
+
+**3. Adjust resolution and FPS:** Now, change the **Resolution** and **Refresh Rate** to match the exact native resolusion of your external monitor. Make sure to pump those Hz up to your monitor's max limits so the gameplay feels ultra smooth!! :D
+
+
+<img width="2560" height="1440" alt="Dont Starve Together-steam-deck-bazzite-in game options-thatGVguy" src="https://github.com/user-attachments/assets/6deeebdb-5e8d-417b-ba9f-a859c976c7e1" />
+
+
+**4. Apply and accept:** Click the **Apply** button at the bottom. A tiny confirmation box will pop up, click **Accept** and you are completely done! The game will shift to that crisp resolution instantly
+
+<img width="2560" height="1440" alt="Dont Starve Together-steam-deck-bazzite-in game options 2-thatGVguy" src="https://github.com/user-attachments/assets/b25061d7-55ef-41b2-a243-001b1fca1a3e" />
+
+---
+
 ## 🖥️ For Ultrawide Users (21:9)
 If you are using an Ultrawide monitor (like a 21:9 setup or 3440 x 1440), use the exact same command string! It will instantly fix the aspect ratio and let you see much more of the constant dangers on the map! :D
 
