@@ -186,8 +186,10 @@ We are almost done!
 
 ---
 
-## 🦦 Plan B: The Lutris Alternative (If Steam is Stubborn) :(
-Sometimes, Steam just flat out refuses to cooperate with specific webview setups depending on your SteamOS version, leaving you stuck in an infinite black or white screen loop. A massive shoutout to a community member who confirmed this workaround: if Steam is giving you a headache, Lutris is your best friend! :D
+## 🦦 Plan B: The Lutris Alternative (If Steam is Stubborn) :( (SteamDeck Users)
+Sometimes, Steam just flat out refuses to cooperate with specific webview setups depending on your OS, leaving you stuck in an infinite black or white screen loop. 
+
+**A MASSIVE shoutout to community member Glizzy Grizzy and zero from Discord!** They actualy figured out that while this works out of the box on Bazzite, SteamOS users specifically need a custom runner called **Proton CachyOS** via Lutris to make WebView2 behave! :D
 
 Lutris handles Windows prefixes a little differently, making it a lifesaver for weird ports like this. The process is almost the exact same, we just do the "Switcharoo" trick first!
 
@@ -197,7 +199,22 @@ Lutris handles Windows prefixes a little differently, making it a lifesaver for 
 ![NotiGV-PVZGE-WebView2 site- download 2](https://github.com/user-attachments/assets/78e26a65-c518-4aa7-b6b5-baf1f6aa019c)
 ![NotiGV-PVZGE-WebView2 site- download 3](https://github.com/user-attachments/assets/af12acdc-943a-4dfc-8024-7f35b6208b7f)
 
-3. Open Lutris and click the **"+"** button in the top left corner to add a new game. Select **"Add locally installed game"**.
+3. Now, open **ProtonUp-Qt** (install it from Discover if you don't have it).
+
+![NotiGV-PVZGE-Bazaar](https://github.com/user-attachments/assets/bdb2fbaa-ee03-427e-839e-63bdf2c6c365)
+![NotiGV-PVZGE-Bazaar-ProtonUP-open](https://github.com/user-attachments/assets/589f82cb-f3c2-496a-9a35-f6b971cde5c6)
+
+Under "Install for", click the dropdown arrow and change it to **Lutris Flatpak** (or just Lutris).
+
+<img width="551" height="487" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-Proton-thatgvguy" src="https://github.com/user-attachments/assets/77dcd4d3-7925-4642-b178-0b98b9f92ab0" />
+<img width="551" height="487" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-Proton 2-thatgvguy" src="https://github.com/user-attachments/assets/d804e41f-ab2a-48e3-a2ad-8d9709393bcc" />
+
+Click **Add version**, change the compatibility tool to **proton-cachyos** (it's probly the default one that shows up), and hit Install.
+
+<img width="551" height="487" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-Proton 3-thatgvguy" src="https://github.com/user-attachments/assets/b0705354-b8b6-4835-87f5-92f430cc4e6e" />
+<img width="551" height="487" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-Proton 4-thatgvguy" src="https://github.com/user-attachments/assets/0c40e3b6-2f61-406e-88e5-7703517b7e4d" />
+
+4. Open Lutris and click the **"+"** button in the top left corner to add a new game. Select **"Add locally installed game"**.
 
 ### <img width="1519" height="809" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy" src="https://github.com/user-attachments/assets/1181bfd0-0894-435b-9e54-3d913fe9026a" />
 
@@ -205,29 +222,29 @@ Lutris handles Windows prefixes a little differently, making it a lifesaver for 
 
 ### <img width="791" height="614" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 3" src="https://github.com/user-attachments/assets/e549638f-b794-45f4-b3c8-afc7908de563" />
 
-4. Name it *PvZ Gardenless*.
+5. Name it *PvZ Gardenless*.
 
 <img width="1046" height="701" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 4" src="https://github.com/user-attachments/assets/d46de342-d1c9-4a05-9af1-544a4126a4ed" />
 
-5. Go to the **Game options** tab. For the **Executable**, click browse and point it to the **WebView2 Installer** `.exe` you downloaded.
+6. Go to the **Game options** tab. For the **Executable**, click browse and point it to the **WebView2 Installer** `.exe` you downloaded.
 
 <img width="1046" height="701" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 5" src="https://github.com/user-attachments/assets/a3f0c751-ff5c-47f7-a0de-60c54771fd3d" />
 
 <img width="1490" height="336" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 6" src="https://github.com/user-attachments/assets/698e3395-1321-4160-b05f-e2f08515c1a4" />
 
-6. **One final check:** Go to **Configure -> Runner options**, and make sure your Wine version is set to a recent **GE-Proton**. This is what ensures you don't get that annoying black screen!
+7. **THE MAGIC FIX:** Go to **Configure -> Runner options**, and make sure your Wine version is set to the **CachyOS** version you just installed. This is what prevents the SteamOS white screen crash!
 
 <img width="1048" height="656" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 7" src="https://github.com/user-attachments/assets/8b220ab1-b811-4413-9914-31d76a9da97d" />
 
-7. Hit **Save**, then click the **Play** button in Lutris. It will actully run the Microsoft installer inside a fresh Wine prefix! Follow the prompts to finish the install.
+8. Hit **Save**, then click the **Play** button in Lutris. It will actully run the Microsoft installer inside a fresh Wine prefix! Follow the prompts to finish the install.
 
 <img width="1060" height="798" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 8" src="https://github.com/user-attachments/assets/e23d3d38-9b82-4109-9766-0eed7f87c7b7" />
 
 <img width="1520" height="806" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 9" src="https://github.com/user-attachments/assets/3de99aa4-30d1-468f-9ae1-9ed957b3c343" />
 
-8. Once it's done, right-click the game in Lutris and click **Configure**.
+9. Once it's done, right-click the game in Lutris and click **Configure**.
 
-9. Go back to **Game options** and change the **Executable** path to your main `PvZ_Gardendless.exe` file.
+10. Go back to **Game options** and change the **Executable** path to your main `PvZ_Gardendless.exe` file.
 
 <img width="1502" height="477" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 10" src="https://github.com/user-attachments/assets/1aa92244-8cdd-4e92-8d5a-1746ab7acee6" />
 
@@ -235,7 +252,9 @@ Lutris handles Windows prefixes a little differently, making it a lifesaver for 
 
 <img width="994" height="786" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 12" src="https://github.com/user-attachments/assets/7739f9a6-cbdd-4c0c-9973-98b711721788" />
 
-10. **Want it on Steam?** Right-click your game in Lutris and select **"Create Steam shortcut"**. If you don't see it appear in Steam right away, just close Steam completely and open it back up. Now you can play PvZ directly from your Steam Library in Game Mode! :D
+11. **Want it on Steam?** Right-click your game in Lutris and select **"Create Steam shortcut"**. If you don't see it appear in Steam right away, just close Steam completely and open it back up. Now you can play PvZ directly from your Steam Library in Game Mode! :D
+
+*(Note: The game might close the very first time you launch it. Just reopen it and it should work perfectly!)*
 
 <img width="634" height="741" alt="PVZ-Gardendless-steam-deck-bazzite-lutrix-thatgvguy 13" src="https://github.com/user-attachments/assets/75720aad-4760-49b7-994f-974bdc9ee32c" />
 
