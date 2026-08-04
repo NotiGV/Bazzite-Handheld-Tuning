@@ -21,13 +21,14 @@ First things first! Since this is a standalone Windows port, we need to download
 1. Go to Desktop Mode.
 2. Open your trusty web browser and go to the official site: **[PvZ Gardendless (pvzge.com)](https://pvzge.com/en/)**
 
-   ![NotiGV-PVZGE-Official site](https://github.com/user-attachments/assets/a0c603fc-21e6-4602-bf63-db7027d7d348)
+<img width="2547" height="1289" alt="ThatGVguy-PVZGE-Official site" src="https://github.com/user-attachments/assets/88550d39-4809-4bb9-9606-f47fe7cd8ea2" />
 
 3. Download the PC version *(it will likely be a .zip or .rar file)*.
 
-   ![NotiGV-PVZGE-Official site-download](https://github.com/user-attachments/assets/7c51a698-a600-47d0-a75f-8091e2289f04)
-   ![NotiGV-PVZGE-Official site-download-page](https://github.com/user-attachments/assets/c0ed4fd1-471d-4255-8874-fa51b3d0cfbc)
-   ![NotiGV-PVZGE-Official site-download-page-Windows Platform](https://github.com/user-attachments/assets/3884d55c-cda6-4e2f-b77f-3ce82a13aa74)
+<img width="252" height="118" alt="ThatGVguy-PVZGE-Official site-download" src="https://github.com/user-attachments/assets/90b20c10-5ced-4640-b096-dbb50075a839" />
+<img width="1264" height="872" alt="ThatGVguy-PVZGE-Official site-download-page" src="https://github.com/user-attachments/assets/b1df65ef-147e-4a76-99c9-8d49f7284069" />
+<img width="340" height="227" alt="ThatGVguy-PVZGE-Official site-Platform-page" src="https://github.com/user-attachments/assets/21d860c2-097b-4c13-bd15-4fa970dc5d67" />
+<img width="1225" height="527" alt="ThatGVguy-PVZGE-Official site-download-page-Windows Platform" src="https://github.com/user-attachments/assets/9d2d2082-9d0b-4806-8726-b87358e2311f" />
 
 4. Open your File Manager (Dolphin) and go to your **Downloads** folder.
 
